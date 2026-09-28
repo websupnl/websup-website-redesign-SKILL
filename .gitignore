@@ -1,0 +1,29 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Dependencies and caches
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Local client material, captures, work files and renders
+inputs/
+private/
+work/
+out/
+renders/
+motion/
+*.mp4
+*.mov
+*.webm
+
+# Font binaries are not included in this skill package
+*.woff
+*.woff2
+*.ttf
+*.otf
